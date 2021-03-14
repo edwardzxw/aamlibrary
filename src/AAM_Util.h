@@ -12,8 +12,10 @@
 #include <iostream>
 #include <fstream>
 
-#include "cv.h"
-#include "highgui.h"
+#include <Windows.h>
+
+#include "opencv/cv.h"
+#include "opencv/highgui.h"
 
 #include "AAM_Shape.h"
 #include "VJfacedetect.h"

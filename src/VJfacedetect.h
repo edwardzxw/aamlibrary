@@ -12,8 +12,8 @@
 #include <string>
 #include <cmath>
 
-#include "cv.h"
-#include "highgui.h"
+#include "opencv/cv.h"
+#include "opencv/highgui.h"
 #include "AAM_Shape.h"
 
 // Viola and Jones's AdaBoost Haar-like Face Detector

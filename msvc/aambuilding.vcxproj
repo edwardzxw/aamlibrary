@@ -51,6 +51,8 @@
     <OutDir>.\../bin\</OutDir>
     <IntDir>.\../temp\</IntDir>
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\cygwin64\home\Edward\workspace\opencv-2.4.13.6\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\cygwin64\home\Edward\workspace\opencv-2.4.13.6\build\x86\vc14\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
@@ -117,7 +119,7 @@
       <AdditionalIncludeDirectories>../src;../exe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>cv.lib;cxcore.lib;highgui.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opencv_core2413.lib;opencv_highgui2413.lib;opencv_imgproc2413.lib;opencv_objdetect2413.lib;opencv_legacy2413.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>../bin/build.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <ProgramDatabaseFile>.\../bin/build.pdb</ProgramDatabaseFile>

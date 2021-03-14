@@ -7,8 +7,8 @@
 #ifndef AAM_MOVIEAVI_H
 #define AAM_MOVIEAVI_H
 
-#include "cv.h"
-#include "highgui.h"
+#include "opencv/cv.h"
+#include "opencv/highgui.h"
 
 class AAM_MovieAVI
 {

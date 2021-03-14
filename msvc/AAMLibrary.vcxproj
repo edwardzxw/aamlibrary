@@ -45,6 +45,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>.\../bin\</OutDir>
     <IntDir>.\../_temp\</IntDir>
+    <IncludePath>C:\cygwin64\home\Edward\workspace\opencv-2.4.13.6\build\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>.\../bin\</OutDir>
